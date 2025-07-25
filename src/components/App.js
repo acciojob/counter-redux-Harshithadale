@@ -9,7 +9,6 @@ const App = () => {
 
   return (
     <div>
-      {/* Do not remove the main div */}
       <h1>{count}</h1>
       <button onClick={() => dispatch(increment())}>increment</button>
       <button onClick={() => dispatch(decrement())}>decrement</button>
